@@ -62,11 +62,9 @@ export default {
   },
   computed: {
     filteredData () {
-      let doctors2 = this.doctors
-      return doctors2.filter(doctor => doctor.Id_Especial === this.speciality.Id_Especialidade)
-    },
-    console.log(this.doctors)
-    console.log(this.speciality)
+      let filtered = this.doctors
+      return filtered.filter(doctor => doctor.Id_Especial === this.speciality)
+    }
   }
 
 }
