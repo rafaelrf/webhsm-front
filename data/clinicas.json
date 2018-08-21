@@ -1,0 +1,97 @@
+[{
+  "Id_Clinica": "1",
+  "Nm_Clinica": "Ginecologia e Mastologia                "
+}, {
+  "Id_Clinica": "2",
+  "Nm_Clinica": "Otorrinolaringologia                    "
+}, {
+  "Id_Clinica": "5",
+  "Nm_Clinica": "Ortopedia e Traumatologia               "
+}, {
+  "Id_Clinica": "6",
+  "Nm_Clinica": "Cirurgia Geral                          "
+}, {
+  "Id_Clinica": "7",
+  "Nm_Clinica": "Neurologia e Neurocirurgia              "
+}, {
+  "Id_Clinica": "8",
+  "Nm_Clinica": "Pediatria e Cirurgia Pediátrica         "
+}, {
+  "Id_Clinica": "9",
+  "Nm_Clinica": "Oftalmologia                            "
+}, {
+  "Id_Clinica": "10",
+  "Nm_Clinica": "Dermatologia                            "
+}, {
+  "Id_Clinica": "11",
+  "Nm_Clinica": "Urologia e Cirurgia Urológica           "
+}, {
+  "Id_Clinica": "12",
+  "Nm_Clinica": "Patologia                               "
+}, {
+  "Id_Clinica": "13",
+  "Nm_Clinica": "Cabeça e Pescoço                        "
+}, {
+  "Id_Clinica": "34",
+  "Nm_Clinica": "Odontologia                             "
+}, {
+  "Id_Clinica": "15",
+  "Nm_Clinica": "Cirurgia Plástica                       "
+}, {
+  "Id_Clinica": "16",
+  "Nm_Clinica": "Angiologia e Cirurgia Vascular          "
+}, {
+  "Id_Clinica": "17",
+  "Nm_Clinica": "Cardiologia e Cirurgia Cardíaca         "
+}, {
+  "Id_Clinica": "35",
+  "Nm_Clinica": "Medicina Nuclear                        "
+}, {
+  "Id_Clinica": "19",
+  "Nm_Clinica": "Psicologia                              "
+}, {
+  "Id_Clinica": "20",
+  "Nm_Clinica": "Fonoaudiologia                          "
+}, {
+  "Id_Clinica": "33",
+  "Nm_Clinica": "Radiologia                              "
+}, {
+  "Id_Clinica": "22",
+  "Nm_Clinica": "Nutrição                                "
+}, {
+  "Id_Clinica": "23",
+  "Nm_Clinica": "Pneumologia e Cirurgia Torácica         "
+}, {
+  "Id_Clinica": "36",
+  "Nm_Clinica": "Fisioterapia                            "
+}, {
+  "Id_Clinica": "25",
+  "Nm_Clinica": "Radioterapia                            "
+}, {
+  "Id_Clinica": "26",
+  "Nm_Clinica": "Nefrologia                              "
+}, {
+  "Id_Clinica": "27",
+  "Nm_Clinica": "Oncologia e Oncologia Pediátrica        "
+}, {
+  "Id_Clinica": "28",
+  "Nm_Clinica": "Anestesia e Dor                         "
+}, {
+  "Id_Clinica": "29",
+  "Nm_Clinica": "Clínica Médica                          "
+}, {
+  "Id_Clinica": "30",
+  "Nm_Clinica": "Endocrinologia                          "
+}, {
+  "Id_Clinica": "31",
+  "Nm_Clinica": "Reumatologia                            "
+}, {
+  "Id_Clinica": "37",
+  "Nm_Clinica": "Psiquiatria                             "
+}, {
+  "Id_Clinica": "38",
+  "Nm_Clinica": "Serviço Social                          "
+}, {
+  "Id_Clinica": "39",
+  "Nm_Clinica": "Enfermagem                              "
+}]
