@@ -1,52 +1,139 @@
 [{
-  "Id_Especialidade": "1045",
-  "Nm_Especialidade": "Anestesiologia                                    "
+  "Nm_Especialidade": "Alergia E Imunologia                              ",
+  "id_especialidade": "1044"
 }, {
-  "Id_Especialidade": "15",
-  "Nm_Especialidade": "Cardiologia                                       "
+  "Nm_Especialidade": "Anestesiologia                                    ",
+  "id_especialidade": "1045"
 }, {
-  "Id_Especialidade": "1049",
-  "Nm_Especialidade": "Cirurgia De Cabeça E Pescoço                      "
+  "Nm_Especialidade": "Angiologia                                        ",
+  "id_especialidade": "35"
 }, {
-  "Id_Especialidade": "41",
-  "Nm_Especialidade": "Cirurgia Geral                                    "
+  "Nm_Especialidade": "Cancerologia                                      ",
+  "id_especialidade": "1046"
 }, {
-  "Id_Especialidade": "14",
-  "Nm_Especialidade": "Cirurgia Plástica                                 "
+  "Nm_Especialidade": "Cardiologia                                       ",
+  "id_especialidade": "15"
 }, {
-  "Id_Especialidade": "1029",
-  "Nm_Especialidade": "Cirurgia Torácica                                 "
+  "Nm_Especialidade": "Cirurgia Buco-Maxilo-Facial                       ",
+  "id_especialidade": "1027"
 }, {
-  "Id_Especialidade": "33",
-  "Nm_Especialidade": "Clínica Médica                                    "
+  "Nm_Especialidade": "Cirurgia Cardiovascular                           ",
+  "id_especialidade": "1047"
 }, {
-  "Id_Especialidade": "1051",
-  "Nm_Especialidade": "Coloproctologia                                   "
+  "Nm_Especialidade": "Cirurgia De Cabeça E Pescoço                      ",
+  "id_especialidade": "1049"
 }, {
-  "Id_Especialidade": "1052",
-  "Nm_Especialidade": "Endoscopia                                        "
+  "Nm_Especialidade": "Cirurgia Do Aparelho Digestivo                    ",
+  "id_especialidade": "1050"
 }, {
-  "Id_Especialidade": "10",
-  "Nm_Especialidade": "Gastroenterologia                                 "
+  "Nm_Especialidade": "Cirurgia Geral                                    ",
+  "id_especialidade": "41"
 }, {
-  "Id_Especialidade": "11",
-  "Nm_Especialidade": "Ginecologia                                       "
+  "Nm_Especialidade": "Cirurgia Pediátrica                               ",
+  "id_especialidade": "23"
 }, {
-  "Id_Especialidade": "2",
-  "Nm_Especialidade": "Neurologia                                        "
+  "Nm_Especialidade": "Cirurgia Plástica                                 ",
+  "id_especialidade": "14"
 }, {
-  "Id_Especialidade": "4",
-  "Nm_Especialidade": "Oftalmologia                                      "
+  "Nm_Especialidade": "Cirurgia Torácica                                 ",
+  "id_especialidade": "1029"
 }, {
-  "Id_Especialidade": "9",
-  "Nm_Especialidade": "Pneumologia                                       "
+  "Nm_Especialidade": "Cirurgia Vascular                                 ",
+  "id_especialidade": "1030"
 }, {
-  "Id_Especialidade": "1069",
-  "Nm_Especialidade": "Psiquiatria                                       "
+  "Nm_Especialidade": "Clínica Médica                                    ",
+  "id_especialidade": "33"
 }, {
-  "Id_Especialidade": "1070",
-  "Nm_Especialidade": "Radiologia E Diagnóstico Por Imagem               "
+  "Nm_Especialidade": "Coloproctologia                                   ",
+  "id_especialidade": "1051"
 }, {
-  "Id_Especialidade": "19",
-  "Nm_Especialidade": "Urologia                                          "
+  "Nm_Especialidade": "Dermatologia                                      ",
+  "id_especialidade": "8"
+}, {
+  "Nm_Especialidade": "Endocrinologia                                    ",
+  "id_especialidade": "36"
+}, {
+  "Nm_Especialidade": "Endodontia                                        ",
+  "id_especialidade": "1123"
+}, {
+  "Nm_Especialidade": "Enfermagem                                        ",
+  "id_especialidade": "1132"
+}, {
+  "Nm_Especialidade": "Fonoaudiologia                                    ",
+  "id_especialidade": "5"
+}, {
+  "Nm_Especialidade": "Gastroenterologia                                 ",
+  "id_especialidade": "10"
+}, {
+  "Nm_Especialidade": "Geriatria                                         ",
+  "id_especialidade": "1031"
+}, {
+  "Nm_Especialidade": "Ginecologia                                       ",
+  "id_especialidade": "11"
+}, {
+  "Nm_Especialidade": "Hematologia E Hemoterapia                         ",
+  "id_especialidade": "1055"
+}, {
+  "Nm_Especialidade": "Infectologia                                      ",
+  "id_especialidade": "1057"
+}, {
+  "Nm_Especialidade": "Mastologia                                        ",
+  "id_especialidade": "32"
+}, {
+  "Nm_Especialidade": "Nefrologia                                        ",
+  "id_especialidade": "18"
+}, {
+  "Nm_Especialidade": "Neurocirurgia                                     ",
+  "id_especialidade": "1005"
+}, {
+  "Nm_Especialidade": "Neurologia                                        ",
+  "id_especialidade": "2"
+}, {
+  "Nm_Especialidade": "Nutrição                                          ",
+  "id_especialidade": "7"
+}, {
+  "Nm_Especialidade": "Oftalmologia                                      ",
+  "id_especialidade": "4"
+}, {
+  "Nm_Especialidade": "Ortodontia                                        ",
+  "id_especialidade": "1036"
+}, {
+  "Nm_Especialidade": "Ortopedia E Traumatologia                         ",
+  "id_especialidade": "1067"
+}, {
+  "Nm_Especialidade": "Otorrinolaringologia                              ",
+  "id_especialidade": "3"
+}, {
+  "Nm_Especialidade": "Pediatria                                         ",
+  "id_especialidade": "26"
+}, {
+  "Nm_Especialidade": "Periodontia                                       ",
+  "id_especialidade": "1126"
+}, {
+  "Nm_Especialidade": "Pneumologia                                       ",
+  "id_especialidade": "9"
+}, {
+  "Nm_Especialidade": "Prótese \/ Dentística                              ",
+  "id_especialidade": "1127"
+}, {
+  "Nm_Especialidade": "Psicologia                                        ",
+  "id_especialidade": "1"
+}, {
+  "Nm_Especialidade": "Psiquiatria                                       ",
+  "id_especialidade": "1069"
+}, {
+  "Nm_Especialidade": "Radiologia E Diagnóstico Por Imagem               ",
+  "id_especialidade": "1070"
+}, {
+  "Nm_Especialidade": "Radioterapia                                      ",
+  "id_especialidade": "17"
+}, {
+  "Nm_Especialidade": "Reumatologia                                      ",
+  "id_especialidade": "38"
+}, {
+  "Nm_Especialidade": "Serviço Social                                    ",
+  "id_especialidade": "1136"
+}, {
+  "Nm_Especialidade": "Urologia                                          ",
+  "id_especialidade": "19"
 }]

@@ -1,77 +1,362 @@
 [{
-  "Id_Medico": "7533",
-  "Nm_Medico": "Amanda Mendonça Marques                 ",
-  "CRM_Medico": "5837PI     ",
+  "Id_Medico": "80",
+  "Nm_Medico": "Acaciara Santos Silva                   ",
+  "CRM_Medico": "1581PI     ",
+  "Id_Especial": "8"
+}, {
+  "Id_Medico": "82",
+  "Nm_Medico": "Adelino Araujo Dos Martirios Moura Fe   ",
+  "CRM_Medico": "1064PI     ",
+  "Id_Especial": "1027"
+}, {
+  "Id_Medico": "4535",
+  "Nm_Medico": "Adelino Nunes Cavalcante Junior         ",
+  "CRM_Medico": "2376PI     ",
+  "Id_Especial": "1036"
+}, {
+  "Id_Medico": "5252",
+  "Nm_Medico": "Adriana Alves Dos Santos                ",
+  "CRM_Medico": "331257PI   ",
+  "Id_Especial": "1132"
+}, {
+  "Id_Medico": "7362",
+  "Nm_Medico": "Adriano Bastos De Oliveira              ",
+  "CRM_Medico": "6919PI     ",
   "Id_Especial": "1045"
 }, {
-  "Id_Medico": "2155",
-  "Nm_Medico": "Ana Maria Lima Furtado Veloso           ",
-  "CRM_Medico": "2339PI     ",
-  "Id_Especial": "33"
+  "Id_Medico": "4275",
+  "Nm_Medico": "Alexandro Soares Viana                  ",
+  "CRM_Medico": "3983PI     ",
+  "Id_Especial": "14"
+}, {
+  "Id_Medico": "5812",
+  "Nm_Medico": "Alfredo Walburgo De Souza Pereira       ",
+  "CRM_Medico": "5504PI     ",
+  "Id_Especial": "17"
+}, {
+  "Id_Medico": "132",
+  "Nm_Medico": "Alvaro Francisco Correia Lima Câmara    ",
+  "CRM_Medico": "2362PI     ",
+  "Id_Especial": "1067"
+}, {
+  "Id_Medico": "2496",
+  "Nm_Medico": "Alyne Ferreira De Almendra Freitas      ",
+  "CRM_Medico": "3043PI     ",
+  "Id_Especial": "1055"
+}, {
+  "Id_Medico": "5203",
+  "Nm_Medico": "Amazonina Fontenele Alves               ",
+  "CRM_Medico": "248559PI   ",
+  "Id_Especial": "1132"
+}, {
+  "Id_Medico": "7318",
+  "Nm_Medico": "Ana Carla Silva Do Rego Lima            ",
+  "CRM_Medico": "7863-4PI   ",
+  "Id_Especial": "5"
+}, {
+  "Id_Medico": "135",
+  "Nm_Medico": "Ana Lúcia Nascimento Araújo             ",
+  "CRM_Medico": "1809PI     ",
+  "Id_Especial": "14"
+}, {
+  "Id_Medico": "3612",
+  "Nm_Medico": "Ana Luisa Rios Barbosa De Almeida       ",
+  "CRM_Medico": "CRO2568PI  ",
+  "Id_Especial": "1027"
+}, {
+  "Id_Medico": "47",
+  "Nm_Medico": "Ana Maria Veloso Bonfim Mendes          ",
+  "CRM_Medico": "1738PI     ",
+  "Id_Especial": "11"
+}, {
+  "Id_Medico": "3361",
+  "Nm_Medico": "Ana Mary Moreira De Sousa               ",
+  "CRM_Medico": "552PI      ",
+  "Id_Especial": "1136"
 }, {
   "Id_Medico": "3008",
   "Nm_Medico": "Ana Paula Santos De Andrade Melo        ",
   "CRM_Medico": "3506PI     ",
   "Id_Especial": "1051"
 }, {
-  "Id_Medico": "6768",
-  "Nm_Medico": "Antônio José Marreiros Melo             ",
-  "CRM_Medico": "4448PI     ",
-  "Id_Especial": "1045"
+  "Id_Medico": "6146",
+  "Nm_Medico": "Ana Tyara Rodrigues Da Silva            ",
+  "CRM_Medico": "21\/02068PI ",
+  "Id_Especial": "1"
+}, {
+  "Id_Medico": "2353",
+  "Nm_Medico": "Anderson Carvalho Araújo                ",
+  "CRM_Medico": "2279PI     ",
+  "Id_Especial": "1067"
+}, {
+  "Id_Medico": "2367",
+  "Nm_Medico": "Anderson Martins Dantas                 ",
+  "CRM_Medico": "2739PI     ",
+  "Id_Especial": "41"
+}, {
+  "Id_Medico": "4515",
+  "Nm_Medico": "Andre Biondi Ferraz                     ",
+  "CRM_Medico": "4466PI     ",
+  "Id_Especial": "19"
+}, {
+  "Id_Medico": "3110",
+  "Nm_Medico": "Anglya Samara Silva Leite Coutinho      ",
+  "CRM_Medico": "3463PI     ",
+  "Id_Especial": "8"
+}, {
+  "Id_Medico": "5055",
+  "Nm_Medico": "Antonio Carlos Barbosa Sousa            ",
+  "CRM_Medico": "3720PI     ",
+  "Id_Especial": "1005"
+}, {
+  "Id_Medico": "72",
+  "Nm_Medico": "Antonio De Padua Rego Junior            ",
+  "CRM_Medico": "910PI      ",
+  "Id_Especial": "1005"
+}, {
+  "Id_Medico": "73",
+  "Nm_Medico": "Antonio Fortes De Padua Filho           ",
+  "CRM_Medico": "917PI      ",
+  "Id_Especial": "32"
+}, {
+  "Id_Medico": "3167",
+  "Nm_Medico": "Arlitonio Sarmento De Araujo Costa      ",
+  "CRM_Medico": "2679PI     ",
+  "Id_Especial": "14"
+}, {
+  "Id_Medico": "3202",
+  "Nm_Medico": "Armando Brito Basílio Da Silva Junior   ",
+  "CRM_Medico": "2570PI     ",
+  "Id_Especial": "2"
+}, {
+  "Id_Medico": "2387",
+  "Nm_Medico": "Aura Denise Rameiro Brandão             ",
+  "CRM_Medico": "2494PI     ",
+  "Id_Especial": "10"
+}, {
+  "Id_Medico": "2879",
+  "Nm_Medico": "Aurus Dourado Meneses                   ",
+  "CRM_Medico": "3494PI     ",
+  "Id_Especial": "19"
+}, {
+  "Id_Medico": "3392",
+  "Nm_Medico": "Ayrana Soares Aires                     ",
+  "CRM_Medico": "3746PI     ",
+  "Id_Especial": "1067"
 }, {
   "Id_Medico": "5246",
   "Nm_Medico": "Bárbara Hamedy Carvalho E Queiroz       ",
   "CRM_Medico": "5246PI     ",
   "Id_Especial": "1069"
 }, {
+  "Id_Medico": "126",
+  "Nm_Medico": "Benjamim Pessoa Vale                    ",
+  "CRM_Medico": "1916PI     ",
+  "Id_Especial": "1005"
+}, {
+  "Id_Medico": "4496",
+  "Nm_Medico": "Benjamim Soares De Carvalho Neto        ",
+  "CRM_Medico": "4388PI     ",
+  "Id_Especial": "19"
+}, {
+  "Id_Medico": "2696",
+  "Nm_Medico": "Bernardo Cunha Araujo Filho             ",
+  "CRM_Medico": "2501PI     ",
+  "Id_Especial": "3"
+}, {
+  "Id_Medico": "5228",
+  "Nm_Medico": "Breno Pontes Vasconcelos Lima           ",
+  "CRM_Medico": "5149PI     ",
+  "Id_Especial": "32"
+}, {
+  "Id_Medico": "6657",
+  "Nm_Medico": "Bruna Nayana Ribeiro Barbosa            ",
+  "CRM_Medico": "5811PI     ",
+  "Id_Especial": "1005"
+}, {
+  "Id_Medico": "7210",
+  "Nm_Medico": "Bruno Francisco Müller Neto             ",
+  "CRM_Medico": "6762PI     ",
+  "Id_Especial": "14"
+}, {
+  "Id_Medico": "3754",
+  "Nm_Medico": "Bruno Soares Freire                     ",
+  "CRM_Medico": "4245PI     ",
+  "Id_Especial": "1067"
+}, {
   "Id_Medico": "6890",
   "Nm_Medico": "Caio Alcobaça Marcondes                 ",
   "CRM_Medico": "4811PI     ",
   "Id_Especial": "14"
 }, {
-  "Id_Medico": "46",
-  "Nm_Medico": "Carlos Alberto Linhares De Araujo       ",
-  "CRM_Medico": "1737PI     ",
-  "Id_Especial": "15"
+  "Id_Medico": "3686",
+  "Nm_Medico": "Camilla Almeida Braga Venancio          ",
+  "CRM_Medico": "1971PI     ",
+  "Id_Especial": "1123"
+}, {
+  "Id_Medico": "4808",
+  "Nm_Medico": "Carine Soares Borges                    ",
+  "CRM_Medico": "1877PI     ",
+  "Id_Especial": "1127"
+}, {
+  "Id_Medico": "3677",
+  "Nm_Medico": "Carlos Gustavo Silva Braga              ",
+  "CRM_Medico": "1982PI     ",
+  "Id_Especial": "1036"
+}, {
+  "Id_Medico": "3483",
+  "Nm_Medico": "Carlos Rogerio Nogueira Dos Santos      ",
+  "CRM_Medico": "3135PI     ",
+  "Id_Especial": "19"
+}, {
+  "Id_Medico": "6896",
+  "Nm_Medico": "Caroline Baima De Melo                  ",
+  "CRM_Medico": "5023PI     ",
+  "Id_Especial": "8"
+}, {
+  "Id_Medico": "7417",
+  "Nm_Medico": "Caroline Torres Sampaio                 ",
+  "CRM_Medico": "4909PI     ",
+  "Id_Especial": "10"
+}, {
+  "Id_Medico": "3134",
+  "Nm_Medico": "Celia Silva Egito                       ",
+  "CRM_Medico": "3769PI     ",
+  "Id_Especial": "33"
+}, {
+  "Id_Medico": "5079",
+  "Nm_Medico": "Cléciton Braga Tavares                  ",
+  "CRM_Medico": "3486PI     ",
+  "Id_Especial": "1005"
 }, {
   "Id_Medico": "14",
   "Nm_Medico": "Cosme Jose Albergaria Da Silva          ",
   "CRM_Medico": "1185PI     ",
   "Id_Especial": "4"
 }, {
+  "Id_Medico": "4863",
+  "Nm_Medico": "Cosme José Albergaria Da Silva Filho    ",
+  "CRM_Medico": "2436PI     ",
+  "Id_Especial": "1036"
+}, {
+  "Id_Medico": "2111",
+  "Nm_Medico": "Cristiane Fortes Napoleão Do Rego       ",
+  "CRM_Medico": "2704PI     ",
+  "Id_Especial": "1046"
+}, {
   "Id_Medico": "3591",
   "Nm_Medico": "Cromwell Barbosa De Carvalho Melo       ",
   "CRM_Medico": "3568PI     ",
   "Id_Especial": "1029"
+}, {
+  "Id_Medico": "4467",
+  "Nm_Medico": "Daniel Fabiano Ferreira                 ",
+  "CRM_Medico": "4295PI     ",
+  "Id_Especial": "14"
+}, {
+  "Id_Medico": "3386",
+  "Nm_Medico": "Daniela Bianca Pinto Soares             ",
+  "CRM_Medico": "3188PI     ",
+  "Id_Especial": "1055"
 }, {
   "Id_Medico": "2110",
   "Nm_Medico": "Daniela Martins Neiva Guimaraes         ",
   "CRM_Medico": "2334PI     ",
   "Id_Especial": "4"
 }, {
+  "Id_Medico": "7220",
+  "Nm_Medico": "Danilo Da Silva Leite                   ",
+  "CRM_Medico": "4827PI     ",
+  "Id_Especial": "1067"
+}, {
+  "Id_Medico": "69",
+  "Nm_Medico": "David Pereira Carvalho                  ",
+  "CRM_Medico": "899PI      ",
+  "Id_Especial": "41"
+}, {
+  "Id_Medico": "3332",
+  "Nm_Medico": "Deusdedit Castelo Branco De Andrade     ",
+  "CRM_Medico": "3823PI     ",
+  "Id_Especial": "1049"
+}, {
+  "Id_Medico": "7180",
+  "Nm_Medico": "Djamila Brasileiro Do Nascimento        ",
+  "CRM_Medico": "5028PI     ",
+  "Id_Especial": "1045"
+}, {
   "Id_Medico": "144",
   "Nm_Medico": "Domingos Augusto Carvalho Mourão        ",
   "CRM_Medico": "2040PI     ",
   "Id_Especial": "4"
+}, {
+  "Id_Medico": "58",
+  "Nm_Medico": "Edgar Pereira Filho                     ",
+  "CRM_Medico": "2180PI     ",
+  "Id_Especial": "11"
 }, {
   "Id_Medico": "171",
   "Nm_Medico": "Edilson Carvalho De Sousa Junior        ",
   "CRM_Medico": "2077PI     ",
   "Id_Especial": "1051"
 }, {
-  "Id_Medico": "5533",
-  "Nm_Medico": "Eduardo Henrique Ramos De Sousa         ",
-  "CRM_Medico": "4990PI     ",
-  "Id_Especial": "1045"
+  "Id_Medico": "5",
+  "Nm_Medico": "Edimar Duarte Val                       ",
+  "CRM_Medico": "1043PI     ",
+  "Id_Especial": "32"
+}, {
+  "Id_Medico": "3553",
+  "Nm_Medico": "Edinilson Delcio Chagas Mourao          ",
+  "CRM_Medico": "3328PI     ",
+  "Id_Especial": "1031"
+}, {
+  "Id_Medico": "2349",
+  "Nm_Medico": "Eduardo Guimarães Melo                  ",
+  "CRM_Medico": "2953PI     ",
+  "Id_Especial": "23"
+}, {
+  "Id_Medico": "2659",
+  "Nm_Medico": "Eduardo Mendes De Carvalho              ",
+  "CRM_Medico": "2836PI     ",
+  "Id_Especial": "1057"
+}, {
+  "Id_Medico": "3119",
+  "Nm_Medico": "Eid Gonçalves Coelho                    ",
+  "CRM_Medico": "2672PI     ",
+  "Id_Especial": "11"
+}, {
+  "Id_Medico": "89",
+  "Nm_Medico": "Elisa Rosa De Carvalho Gonçalves Nunes  ",
+  "CRM_Medico": "1959PI     ",
+  "Id_Especial": "32"
 }, {
   "Id_Medico": "6706",
   "Nm_Medico": "Elizeu Pereira Dos Santos Neto          ",
   "CRM_Medico": "3761PI     ",
   "Id_Especial": "2"
 }, {
-  "Id_Medico": "4794",
-  "Nm_Medico": "Erbert Portela Martins Filho            ",
-  "CRM_Medico": "4688PI     ",
+  "Id_Medico": "3068",
+  "Nm_Medico": "Elmar Lopes De Carvalho                 ",
+  "CRM_Medico": "3293PI     ",
+  "Id_Especial": "15"
+}, {
+  "Id_Medico": "6475",
+  "Nm_Medico": "Elton Portela Santos Bezerra            ",
+  "CRM_Medico": "5518PI     ",
+  "Id_Especial": "1005"
+}, {
+  "Id_Medico": "2991",
+  "Nm_Medico": "Emerson Brandao Sousa                   ",
+  "CRM_Medico": "3249PI     ",
+  "Id_Especial": "1005"
+}, {
+  "Id_Medico": "3474",
+  "Nm_Medico": "Erica Patricia Chaves                   ",
+  "CRM_Medico": "3971PI     ",
+  "Id_Especial": "26"
+}, {
+  "Id_Medico": "74",
+  "Nm_Medico": "Euripedes Soares Filho                  ",
+  "CRM_Medico": "922PI      ",
   "Id_Especial": "41"
 }, {
   "Id_Medico": "107",
@@ -79,203 +364,698 @@
   "CRM_Medico": "1569PI     ",
   "Id_Especial": "4"
 }, {
-  "Id_Medico": "2106",
-  "Nm_Medico": "Fabiana Francis Rodrigues Do Monte      ",
-  "CRM_Medico": "2698PI     ",
-  "Id_Especial": "11"
-}, {
-  "Id_Medico": "3692",
-  "Nm_Medico": "Fabio Augusto Costa Martins             ",
-  "CRM_Medico": "2832PI     ",
-  "Id_Especial": "1070"
+  "Id_Medico": "6777",
+  "Nm_Medico": "Fabiano Aguiar Coêlho                   ",
+  "CRM_Medico": "6296PI     ",
+  "Id_Especial": "1046"
 }, {
   "Id_Medico": "3027",
   "Nm_Medico": "Fábio Augusto Ribeiro Brito             ",
   "CRM_Medico": "3679PI     ",
   "Id_Especial": "19"
 }, {
-  "Id_Medico": "6470",
-  "Nm_Medico": "Felipe Prado Pires                      ",
-  "CRM_Medico": "4277PI     ",
-  "Id_Especial": "1045"
+  "Id_Medico": "4717",
+  "Nm_Medico": "Felipe Rodrigues Pacheco Britto         ",
+  "CRM_Medico": "4628PI     ",
+  "Id_Especial": "1070"
 }, {
   "Id_Medico": "2983",
   "Nm_Medico": "Fernando Lopes Vieira                   ",
   "CRM_Medico": "2731PI     ",
   "Id_Especial": "1051"
 }, {
+  "Id_Medico": "3057",
+  "Nm_Medico": "Fidelis Manes Neto                      ",
+  "CRM_Medico": "3717PI     ",
+  "Id_Especial": "41"
+}, {
+  "Id_Medico": "3572",
+  "Nm_Medico": "Flávia Brandão Miranda                  ",
+  "CRM_Medico": "3028PI     ",
+  "Id_Especial": "1031"
+}, {
+  "Id_Medico": "68",
+  "Nm_Medico": "Flavio Rodrigues Nogueira               ",
+  "CRM_Medico": "837PI      ",
+  "Id_Especial": "1029"
+}, {
+  "Id_Medico": "2142",
+  "Nm_Medico": "Francisco Jose Alencar                  ",
+  "CRM_Medico": "2565PI     ",
+  "Id_Especial": "2"
+}, {
   "Id_Medico": "2511",
   "Nm_Medico": "Francisco Jose Araujo Sousa             ",
   "CRM_Medico": "3053PI     ",
   "Id_Especial": "41"
+}, {
+  "Id_Medico": "5802",
+  "Nm_Medico": "Francisco Karlos Leal Gomes             ",
+  "CRM_Medico": "5152PI     ",
+  "Id_Especial": "32"
+}, {
+  "Id_Medico": "7412",
+  "Nm_Medico": "Francisco Norberto De Moura Neto        ",
+  "CRM_Medico": "2864PI     ",
+  "Id_Especial": "1127"
+}, {
+  "Id_Medico": "4873",
+  "Nm_Medico": "Frederico Soares Lemos Martins          ",
+  "CRM_Medico": "4648PI     ",
+  "Id_Especial": "1067"
+}, {
+  "Id_Medico": "3713",
+  "Nm_Medico": "Gabriela De Freitas Fonseca             ",
+  "CRM_Medico": "1222PI     ",
+  "Id_Especial": "1136"
+}, {
+  "Id_Medico": "5869",
+  "Nm_Medico": "Geivan Borges Da Silva Freire           ",
+  "CRM_Medico": "4180PI     ",
+  "Id_Especial": "2"
+}, {
+  "Id_Medico": "7473",
+  "Nm_Medico": "George Mello Neiva Nunes                ",
+  "CRM_Medico": "5410PI     ",
+  "Id_Especial": "1067"
 }, {
   "Id_Medico": "56",
   "Nm_Medico": "Germano Pinho De Moraes                 ",
   "CRM_Medico": "1947PI     ",
   "Id_Especial": "1049"
 }, {
-  "Id_Medico": "6410",
-  "Nm_Medico": "Glínia Cavalcante Nogueira Lopes        ",
-  "CRM_Medico": "4495PI     ",
+  "Id_Medico": "67",
+  "Nm_Medico": "Gevina Silva Pinheiro                   ",
+  "CRM_Medico": "802PI      ",
+  "Id_Especial": "1046"
+}, {
+  "Id_Medico": "40",
+  "Nm_Medico": "Gildene Alves Da Costa                  ",
+  "CRM_Medico": "1705PI     ",
+  "Id_Especial": "1046"
+}, {
+  "Id_Medico": "134",
+  "Nm_Medico": "Gustavo Santos De Sousa                 ",
+  "CRM_Medico": "2387PI     ",
+  "Id_Especial": "1050"
+}, {
+  "Id_Medico": "7504",
+  "Nm_Medico": "Gutemberg Clementino Martins M Soares   ",
+  "CRM_Medico": "5388PI     ",
+  "Id_Especial": "1067"
+}, {
+  "Id_Medico": "4793",
+  "Nm_Medico": "Hamilton De Sousa Mourão                ",
+  "CRM_Medico": "4783PI     ",
+  "Id_Especial": "19"
+}, {
+  "Id_Medico": "4342",
+  "Nm_Medico": "Hardynn Wesley Saunders Rocha Tavares   ",
+  "CRM_Medico": "4082PI     ",
+  "Id_Especial": "3"
+}, {
+  "Id_Medico": "3309",
+  "Nm_Medico": "Helder Damasio Da Silva                 ",
+  "CRM_Medico": "3884PI     ",
+  "Id_Especial": "19"
+}, {
+  "Id_Medico": "2466",
+  "Nm_Medico": "Herbert Meneses Dos Santos Junior       ",
+  "CRM_Medico": "2997PI     ",
+  "Id_Especial": "41"
+}, {
+  "Id_Medico": "5233",
+  "Nm_Medico": "Herion Alves Da Silva Machado           ",
+  "CRM_Medico": "5008PI     ",
+  "Id_Especial": "1057"
+}, {
+  "Id_Medico": "6992",
+  "Nm_Medico": "Hermano Rodrigues Pinheiro              ",
+  "CRM_Medico": "4202PI     ",
+  "Id_Especial": "15"
+}, {
+  "Id_Medico": "117",
+  "Nm_Medico": "Hermes Santana Daniel Netto             ",
+  "CRM_Medico": "1513PI     ",
   "Id_Especial": "1045"
 }, {
-  "Id_Medico": "106",
-  "Nm_Medico": "Hildo Torquato De Araujo                ",
-  "CRM_Medico": "1906PI     ",
+  "Id_Medico": "2356",
+  "Nm_Medico": "Heyder De Moura Leal                    ",
+  "CRM_Medico": "2326PI     ",
+  "Id_Especial": "1046"
+}, {
+  "Id_Medico": "6793",
+  "Nm_Medico": "Hugo Leonardo Mendes Barros             ",
+  "CRM_Medico": "2974PI     ",
+  "Id_Especial": "1027"
+}, {
+  "Id_Medico": "7411",
+  "Nm_Medico": "Igor Cardoso Campos                     ",
+  "CRM_Medico": "6922PI     ",
   "Id_Especial": "15"
 }, {
-  "Id_Medico": "4322",
-  "Nm_Medico": "Igor Neiva De Moura Santos Cordeiro     ",
-  "CRM_Medico": "4058PI     ",
-  "Id_Especial": "1070"
+  "Id_Medico": "4860",
+  "Nm_Medico": "Igor Da Rocha Martins Franklin          ",
+  "CRM_Medico": "4726PI     ",
+  "Id_Especial": "19"
 }, {
-  "Id_Medico": "4024",
-  "Nm_Medico": "Ismar Aguiar Marques Filho              ",
-  "CRM_Medico": "3165PI     ",
-  "Id_Especial": "15"
+  "Id_Medico": "5188",
+  "Nm_Medico": "Ilana Vidal Neiva                       ",
+  "CRM_Medico": "4491PI     ",
+  "Id_Especial": "1045"
 }, {
-  "Id_Medico": "2315",
-  "Nm_Medico": "João Francisco De Sousa Filho           ",
-  "CRM_Medico": "2239PI     ",
+  "Id_Medico": "49",
+  "Nm_Medico": "Iracema Nunes De Castro                 ",
+  "CRM_Medico": "1753PI     ",
+  "Id_Especial": "1046"
+}, {
+  "Id_Medico": "5921",
+  "Nm_Medico": "Isabella Almeida Braga Venâncio         ",
+  "CRM_Medico": "2855PI     ",
+  "Id_Especial": "1126"
+}, {
+  "Id_Medico": "5182",
+  "Nm_Medico": "Isis Maria Lobao Alencar Ferro Gomes    ",
+  "CRM_Medico": "21\/01124PI ",
+  "Id_Especial": "1"
+}, {
+  "Id_Medico": "3293",
+  "Nm_Medico": "Jamerson Moreira De Lemos Junior        ",
+  "CRM_Medico": "3878PI     ",
+  "Id_Especial": "1067"
+}, {
+  "Id_Medico": "5285",
+  "Nm_Medico": "Jane Carneiro De Oliveira               ",
+  "CRM_Medico": "4991PI     ",
+  "Id_Especial": "33"
+}, {
+  "Id_Medico": "55",
+  "Nm_Medico": "Jefferson Clerke Lopes Campelo          ",
+  "CRM_Medico": "1903PI     ",
   "Id_Especial": "41"
+}, {
+  "Id_Medico": "7270",
+  "Nm_Medico": "Jessica Loureiro Mendes Silva           ",
+  "CRM_Medico": "467433PI   ",
+  "Id_Especial": "1132"
+}, {
+  "Id_Medico": "37",
+  "Nm_Medico": "Joao Araujo Dos Martirios Moura Fe      ",
+  "CRM_Medico": "1673PI     ",
+  "Id_Especial": "1029"
+}, {
+  "Id_Medico": "2765",
+  "Nm_Medico": "Jocerlano Santos De Sousa               ",
+  "CRM_Medico": "3412PI     ",
+  "Id_Especial": "1047"
 }, {
   "Id_Medico": "6271",
   "Nm_Medico": "Jônatas Melo Neto                       ",
   "CRM_Medico": "5414PI     ",
   "Id_Especial": "15"
 }, {
+  "Id_Medico": "2064",
+  "Nm_Medico": "Jose Alexandre Leal Borges              ",
+  "CRM_Medico": "2568PI     ",
+  "Id_Especial": "1049"
+}, {
+  "Id_Medico": "17",
+  "Nm_Medico": "Jose Andrade De Carvalho Melo           ",
+  "CRM_Medico": "1227PI     ",
+  "Id_Especial": "17"
+}, {
+  "Id_Medico": "1769",
+  "Nm_Medico": "José Aragão Pimentel Filho              ",
+  "CRM_Medico": "1721PI     ",
+  "Id_Especial": "1045"
+}, {
+  "Id_Medico": "9",
+  "Nm_Medico": "Jose Carlos De Oliveira Gomes           ",
+  "CRM_Medico": "1133PI     ",
+  "Id_Especial": "32"
+}, {
+  "Id_Medico": "4664",
+  "Nm_Medico": "José De Ribamar Bandeira Filho          ",
+  "CRM_Medico": "4400PI     ",
+  "Id_Especial": "1067"
+}, {
   "Id_Medico": "1",
   "Nm_Medico": "Jose Izaias De Area A Sobrinho          ",
   "CRM_Medico": "1009PI     ",
   "Id_Especial": "9"
+}, {
+  "Id_Medico": "13",
+  "Nm_Medico": "Jose Lages De Carvalho                  ",
+  "CRM_Medico": "1176PI     ",
+  "Id_Especial": "19"
+}, {
+  "Id_Medico": "114",
+  "Nm_Medico": "Jose Nazareno Pearce De O Brito         ",
+  "CRM_Medico": "2323PI     ",
+  "Id_Especial": "1005"
+}, {
+  "Id_Medico": "8",
+  "Nm_Medico": "Jose Pascoal Duarte Pinheiro Correia    ",
+  "CRM_Medico": "1116PI     ",
+  "Id_Especial": "14"
 }, {
   "Id_Medico": "2494",
   "Nm_Medico": "Jose Santana Moreira Ramos Junior       ",
   "CRM_Medico": "2974PI     ",
   "Id_Especial": "1029"
 }, {
-  "Id_Medico": "4574",
-  "Nm_Medico": "Josione Rego Ferreira                   ",
-  "CRM_Medico": "4283PI     ",
-  "Id_Especial": "2"
+  "Id_Medico": "34",
+  "Nm_Medico": "Jose Wagner Bona Morais                 ",
+  "CRM_Medico": "1573PI     ",
+  "Id_Especial": "19"
+}, {
+  "Id_Medico": "3",
+  "Nm_Medico": "Jose Williams De Ribamar Moura De Freita",
+  "CRM_Medico": "1025PI     ",
+  "Id_Especial": "3"
+}, {
+  "Id_Medico": "3833",
+  "Nm_Medico": "Juarez Lobo Bessa                       ",
+  "CRM_Medico": "2104PI     ",
+  "Id_Especial": "1069"
+}, {
+  "Id_Medico": "4590",
+  "Nm_Medico": "Juliana Campelo Lima Mororo             ",
+  "CRM_Medico": "21\/01057PI ",
+  "Id_Especial": "1"
 }, {
   "Id_Medico": "2565",
   "Nm_Medico": "Julio Benevides Viana Neves             ",
   "CRM_Medico": "3212PI     ",
   "Id_Especial": "9"
 }, {
-  "Id_Medico": "4066",
-  "Nm_Medico": "Juvenal Gomes De Souza Neto             ",
-  "CRM_Medico": "3349PI     ",
-  "Id_Especial": "10"
+  "Id_Medico": "32",
+  "Nm_Medico": "Julio Cesar Rebelo Sampaio              ",
+  "CRM_Medico": "1507PI     ",
+  "Id_Especial": "36"
 }, {
-  "Id_Medico": "4333",
-  "Nm_Medico": "Kaline Silva Santos Barreto             ",
-  "CRM_Medico": "4071PI     ",
-  "Id_Especial": "1070"
+  "Id_Medico": "7297",
+  "Nm_Medico": "Kamila Bezerra Fernandes Diocesano      ",
+  "CRM_Medico": "6806PI     ",
+  "Id_Especial": "32"
 }, {
-  "Id_Medico": "6267",
-  "Nm_Medico": "Laerte Gonçalves Granjeiro              ",
-  "CRM_Medico": "4538PI     ",
-  "Id_Especial": "1045"
-}, {
-  "Id_Medico": "6760",
-  "Nm_Medico": "Liana Pires Dos Santos                  ",
-  "CRM_Medico": "6241PI     ",
-  "Id_Especial": "1045"
-}, {
-  "Id_Medico": "7173",
-  "Nm_Medico": "Lílian Gomes De Sousa                   ",
-  "CRM_Medico": "6517PI     ",
-  "Id_Especial": "1052"
-}, {
-  "Id_Medico": "2679",
-  "Nm_Medico": "Luciana Maria Pinheiro Leal             ",
-  "CRM_Medico": "1950PI     ",
-  "Id_Especial": "1070"
-}, {
-  "Id_Medico": "53",
-  "Nm_Medico": "Marcelle Mello Neiva Nunes              ",
-  "CRM_Medico": "1831PI     ",
+  "Id_Medico": "2177",
+  "Nm_Medico": "Laudyceia De Sousa Oliveira             ",
+  "CRM_Medico": "2138PI     ",
   "Id_Especial": "11"
 }, {
-  "Id_Medico": "4507",
-  "Nm_Medico": "Marcos Roberto Queiroz Franca           ",
-  "CRM_Medico": "4425PI     ",
+  "Id_Medico": "5154",
+  "Nm_Medico": "Leandro Almeida Madeira Campos          ",
+  "CRM_Medico": "3120PI     ",
+  "Id_Especial": "14"
+}, {
+  "Id_Medico": "2649",
+  "Nm_Medico": "Leandro Ponce Leal                      ",
+  "CRM_Medico": "2608PI     ",
+  "Id_Especial": "1067"
+}, {
+  "Id_Medico": "3499",
+  "Nm_Medico": "Leonardo Alonso De Moura                ",
+  "CRM_Medico": "1950PI     ",
+  "Id_Especial": "1027"
+}, {
+  "Id_Medico": "130",
+  "Nm_Medico": "Leonardo Eulalio De Araujo Lima         ",
+  "CRM_Medico": "2367PI     ",
+  "Id_Especial": "1067"
+}, {
+  "Id_Medico": "3212",
+  "Nm_Medico": "Leonardo Halley Carvalho Pimentel       ",
+  "CRM_Medico": "2771PI     ",
+  "Id_Especial": "2"
+}, {
+  "Id_Medico": "3122",
+  "Nm_Medico": "Lia Rachel Gomes Do Vale                ",
+  "CRM_Medico": "2905PI     ",
+  "Id_Especial": "8"
+}, {
+  "Id_Medico": "5108",
+  "Nm_Medico": "Lucas Teixeira Dias                     ",
+  "CRM_Medico": "3308PI     ",
   "Id_Especial": "15"
 }, {
-  "Id_Medico": "5422",
-  "Nm_Medico": "Marcus Vinícius Pinheiro Bezerra Melo   ",
-  "CRM_Medico": "5232PI     ",
-  "Id_Especial": "1070"
+  "Id_Medico": "71",
+  "Nm_Medico": "Lucia Rosa Reis De Araujo Carvalho      ",
+  "CRM_Medico": "757PI      ",
+  "Id_Especial": "1027"
+}, {
+  "Id_Medico": "4762",
+  "Nm_Medico": "Luciana Neiva Nunes Azevedo             ",
+  "CRM_Medico": "3628PI     ",
+  "Id_Especial": "11"
+}, {
+  "Id_Medico": "4480",
+  "Nm_Medico": "Luciano Jose Couto De Sousa Filho       ",
+  "CRM_Medico": "2614PI     ",
+  "Id_Especial": "19"
+}, {
+  "Id_Medico": "3047",
+  "Nm_Medico": "Luis Carlos Carvalho Filho              ",
+  "CRM_Medico": "3437PI     ",
+  "Id_Especial": "1050"
+}, {
+  "Id_Medico": "4293",
+  "Nm_Medico": "Luiz De Castro Bastos Filho             ",
+  "CRM_Medico": "4019PI     ",
+  "Id_Especial": "1049"
+}, {
+  "Id_Medico": "7246",
+  "Nm_Medico": "Luiza Maria Damásio Da Silva            ",
+  "CRM_Medico": "6720PI     ",
+  "Id_Especial": "1044"
+}, {
+  "Id_Medico": "3120",
+  "Nm_Medico": "Marcelo Barbosa Ribeiro                 ",
+  "CRM_Medico": "3777PI     ",
+  "Id_Especial": "1067"
+}, {
+  "Id_Medico": "3230",
+  "Nm_Medico": "Marcelo De Assunção Cordeiro            ",
+  "CRM_Medico": "3683PI     ",
+  "Id_Especial": "41"
+}, {
+  "Id_Medico": "2302",
+  "Nm_Medico": "Marcelo Moreira Arêa Leão               ",
+  "CRM_Medico": "2407PI     ",
+  "Id_Especial": "11"
+}, {
+  "Id_Medico": "5370",
+  "Nm_Medico": "Marcia Bartz Machado                    ",
+  "CRM_Medico": "21\/01648PI ",
+  "Id_Especial": "1"
+}, {
+  "Id_Medico": "4773",
+  "Nm_Medico": "Marcilio Diogo De Oliveira Barbosa      ",
+  "CRM_Medico": "3100PI     ",
+  "Id_Especial": "1005"
+}, {
+  "Id_Medico": "18",
+  "Nm_Medico": "Marcondes Martins Santos Moura          ",
+  "CRM_Medico": "1260PI     ",
+  "Id_Especial": "41"
+}, {
+  "Id_Medico": "2967",
+  "Nm_Medico": "Marcos Antonio Veras De Negreiros       ",
+  "CRM_Medico": "2621PI     ",
+  "Id_Especial": "11"
+}, {
+  "Id_Medico": "4712",
+  "Nm_Medico": "Maria Das Graças Barbosa Sousa          ",
+  "CRM_Medico": "3065PI     ",
+  "Id_Especial": "38"
+}, {
+  "Id_Medico": "2260",
+  "Nm_Medico": "Maria De Fátima Soares Do Rego Passos   ",
+  "CRM_Medico": "750PI      ",
+  "Id_Especial": "15"
+}, {
+  "Id_Medico": "7328",
+  "Nm_Medico": "MARIA DO SOCORRO S. MEDEIROS            ",
+  "CRM_Medico": "79822PI    ",
+  "Id_Especial": "1132"
+}, {
+  "Id_Medico": "23",
+  "Nm_Medico": "Maria Salete Rego M P Da Silva          ",
+  "CRM_Medico": "1311PI     ",
+  "Id_Especial": "15"
 }, {
   "Id_Medico": "7407",
   "Nm_Medico": "Mariana Agostini Romualdo               ",
   "CRM_Medico": "6699PI     ",
   "Id_Especial": "4"
 }, {
+  "Id_Medico": "6853",
+  "Nm_Medico": "Mariana Rebelo Oliveira                 ",
+  "CRM_Medico": "6273PI     ",
+  "Id_Especial": "14"
+}, {
+  "Id_Medico": "2956",
+  "Nm_Medico": "Mariella De Almeida Melo                ",
+  "CRM_Medico": "3620PI     ",
+  "Id_Especial": "1046"
+}, {
   "Id_Medico": "7",
   "Nm_Medico": "Marildete Fortes Monte                  ",
   "CRM_Medico": "1096PI     ",
   "Id_Especial": "11"
+}, {
+  "Id_Medico": "7080",
+  "Nm_Medico": "Marilia Buenos Aires Cabral Tavares     ",
+  "CRM_Medico": "5831PI     ",
+  "Id_Especial": "19"
+}, {
+  "Id_Medico": "2381",
+  "Nm_Medico": "Martonio De Assunção Cordeiro           ",
+  "CRM_Medico": "2743PI     ",
+  "Id_Especial": "35"
+}, {
+  "Id_Medico": "2186",
+  "Nm_Medico": "Maurilio De Miranda Nunes               ",
+  "CRM_Medico": "2692PI     ",
+  "Id_Especial": "14"
+}, {
+  "Id_Medico": "119",
+  "Nm_Medico": "Mauro Furtado Cavalcanti                ",
+  "CRM_Medico": "1643PI     ",
+  "Id_Especial": "38"
 }, {
   "Id_Medico": "57",
   "Nm_Medico": "Mauro Jose Oliveira Goncalves           ",
   "CRM_Medico": "2015PI     ",
   "Id_Especial": "15"
 }, {
-  "Id_Medico": "3584",
-  "Nm_Medico": "Miguel Jose De Azevedo Filho            ",
-  "CRM_Medico": "3039PI     ",
-  "Id_Especial": "15"
+  "Id_Medico": "4489",
+  "Nm_Medico": "Michelly Moura Melo                     ",
+  "CRM_Medico": "1659PI     ",
+  "Id_Especial": "1136"
 }, {
-  "Id_Medico": "1759",
-  "Nm_Medico": "Monica Cronemberger Guimaraes Serzedo   ",
-  "CRM_Medico": "1711PI     ",
-  "Id_Especial": "1045"
+  "Id_Medico": "27",
+  "Nm_Medico": "Monica Fortes Napoleao Do Rego          ",
+  "CRM_Medico": "1409PI     ",
+  "Id_Especial": "1046"
 }, {
-  "Id_Medico": "6743",
-  "Nm_Medico": "Pablo Francisco Diogo Lopes             ",
-  "CRM_Medico": "4678PI     ",
-  "Id_Especial": "1045"
+  "Id_Medico": "6891",
+  "Nm_Medico": "Natalia Juliana Vieira Bezerra          ",
+  "CRM_Medico": "6282PI     ",
+  "Id_Especial": "35"
+}, {
+  "Id_Medico": "3360",
+  "Nm_Medico": "Nereida Lia De Castro Passos            ",
+  "CRM_Medico": "829PI      ",
+  "Id_Especial": "1136"
+}, {
+  "Id_Medico": "5551",
+  "Nm_Medico": "Pablo Aloisio Lima Mattos               ",
+  "CRM_Medico": "3675PI     ",
+  "Id_Especial": "19"
+}, {
+  "Id_Medico": "5848",
+  "Nm_Medico": "Pâmela Moema Policarpo Bezerra          ",
+  "CRM_Medico": "5403PI     ",
+  "Id_Especial": "1069"
+}, {
+  "Id_Medico": "4992",
+  "Nm_Medico": "Patricia Coelho Mousinho                ",
+  "CRM_Medico": "4519PI     ",
+  "Id_Especial": "36"
 }, {
   "Id_Medico": "104",
   "Nm_Medico": "Patricia Maria Martins Parente          ",
   "CRM_Medico": "2236PI     ",
   "Id_Especial": "15"
 }, {
-  "Id_Medico": "7004",
-  "Nm_Medico": "Patrícia Meneses De Sousa Santos        ",
-  "CRM_Medico": "6312PI     ",
-  "Id_Especial": "1045"
+  "Id_Medico": "4566",
+  "Nm_Medico": "Paula De Almeida Melo                   ",
+  "CRM_Medico": "4489PI     ",
+  "Id_Especial": "17"
 }, {
-  "Id_Medico": "6824",
-  "Nm_Medico": "Raíssa Vasconcelos Galvão Portella Nunes",
-  "CRM_Medico": "6165PI     ",
-  "Id_Especial": "15"
+  "Id_Medico": "63",
+  "Nm_Medico": "Paulo Henrique De Carvalho Melo         ",
+  "CRM_Medico": "536PI      ",
+  "Id_Especial": "1046"
 }, {
-  "Id_Medico": "7455",
-  "Nm_Medico": "Rodrigo Antonio Carvalho Mello Lima     ",
-  "CRM_Medico": "4371PI     ",
-  "Id_Especial": "15"
+  "Id_Medico": "28",
+  "Nm_Medico": "Paulo Henrique Medeiros Costa           ",
+  "CRM_Medico": "1475PI     ",
+  "Id_Especial": "1047"
+}, {
+  "Id_Medico": "10",
+  "Nm_Medico": "Pedro Carneiro Neto                     ",
+  "CRM_Medico": "1134PI     ",
+  "Id_Especial": "11"
+}, {
+  "Id_Medico": "7374",
+  "Nm_Medico": "Pedro Diego Da Costa Teixeira           ",
+  "CRM_Medico": "3010PI     ",
+  "Id_Especial": "1036"
+}, {
+  "Id_Medico": "6748",
+  "Nm_Medico": "Pollyana Cardoso Val                    ",
+  "CRM_Medico": "3498PI     ",
+  "Id_Especial": "1046"
+}, {
+  "Id_Medico": "2909",
+  "Nm_Medico": "Raimundo Antonio Cardoso Junior         ",
+  "CRM_Medico": "3436PI     ",
+  "Id_Especial": "18"
+}, {
+  "Id_Medico": "160",
+  "Nm_Medico": "Raquel Barbosa De Freitas               ",
+  "CRM_Medico": "1672PI     ",
+  "Id_Especial": "7"
+}, {
+  "Id_Medico": "3457",
+  "Nm_Medico": "Ravenna Nogueira De Carvalho            ",
+  "CRM_Medico": "4006PI     ",
+  "Id_Especial": "17"
+}, {
+  "Id_Medico": "4567",
+  "Nm_Medico": "Rayana Marcia Dos Santos Ferreira       ",
+  "CRM_Medico": "10417PI    ",
+  "Id_Especial": "5"
+}, {
+  "Id_Medico": "7101",
+  "Nm_Medico": "Rebeca Mendes Monteiro                  ",
+  "CRM_Medico": "303445PI   ",
+  "Id_Especial": "1132"
+}, {
+  "Id_Medico": "6739",
+  "Nm_Medico": "Ricardo Marques Lopes De Araújo         ",
+  "CRM_Medico": "4212PI     ",
+  "Id_Especial": "1005"
+}, {
+  "Id_Medico": "3362",
+  "Nm_Medico": "Roberta Dos Santos Quirino Vieira       ",
+  "CRM_Medico": "788PI      ",
+  "Id_Especial": "1136"
+}, {
+  "Id_Medico": "3344",
+  "Nm_Medico": "Rodrigo Oliveira Pereira Da Silva       ",
+  "CRM_Medico": "3044PI     ",
+  "Id_Especial": "1030"
+}, {
+  "Id_Medico": "115",
+  "Nm_Medico": "Roosevelt Furtado De Vasconcelos        ",
+  "CRM_Medico": "305PI      ",
+  "Id_Especial": "11"
+}, {
+  "Id_Medico": "2103",
+  "Nm_Medico": "Rosania Maria De Araujo                 ",
+  "CRM_Medico": "2364PI     ",
+  "Id_Especial": "1057"
+}, {
+  "Id_Medico": "3363",
+  "Nm_Medico": "Ruth Dos Santos Quirino Vieira          ",
+  "CRM_Medico": "579PI      ",
+  "Id_Especial": "1136"
+}, {
+  "Id_Medico": "48",
+  "Nm_Medico": "Salustiano Jose Alves De Moura Junior   ",
+  "CRM_Medico": "1749PI     ",
+  "Id_Especial": "33"
+}, {
+  "Id_Medico": "7050",
+  "Nm_Medico": "Samuel Machado Martins                  ",
+  "CRM_Medico": "4530PI     ",
+  "Id_Especial": "1067"
+}, {
+  "Id_Medico": "65",
+  "Nm_Medico": "Sebastião Nunes Martins                 ",
+  "CRM_Medico": "730PI      ",
+  "Id_Especial": "1047"
+}, {
+  "Id_Medico": "2874",
+  "Nm_Medico": "Selinaldo Amorim Bezerra                ",
+  "CRM_Medico": "3343PI     ",
+  "Id_Especial": "1049"
 }, {
   "Id_Medico": "148",
   "Nm_Medico": "Sergia Patricia Braga Oliveira          ",
   "CRM_Medico": "2078PI     ",
   "Id_Especial": "11"
 }, {
-  "Id_Medico": "2108",
-  "Nm_Medico": "Shirly Maria De Sousa Pacheco           ",
-  "CRM_Medico": "2365PI     ",
-  "Id_Especial": "33"
+  "Id_Medico": "2831",
+  "Nm_Medico": "Silvana Sales De Deus Barbosa           ",
+  "CRM_Medico": "3411PI     ",
+  "Id_Especial": "19"
 }, {
-  "Id_Medico": "6769",
-  "Nm_Medico": "Valter Morais Simeão Filho              ",
-  "CRM_Medico": "5079PI     ",
-  "Id_Especial": "1045"
+  "Id_Medico": "7116",
+  "Nm_Medico": "Susyanne De Lavor Cosme                 ",
+  "CRM_Medico": "6534PI     ",
+  "Id_Especial": "1030"
 }, {
-  "Id_Medico": "35",
-  "Nm_Medico": "Wilson Ferreira Almino De Lima          ",
-  "CRM_Medico": "1595PI     ",
-  "Id_Especial": "1052"
+  "Id_Medico": "3724",
+  "Nm_Medico": "Tercyo Leonardo Coelho Cunha            ",
+  "CRM_Medico": "3578PI     ",
+  "Id_Especial": "15"
+}, {
+  "Id_Medico": "6528",
+  "Nm_Medico": "Thales Costa Bastos                     ",
+  "CRM_Medico": "5941PI     ",
+  "Id_Especial": "8"
+}, {
+  "Id_Medico": "6866",
+  "Nm_Medico": "Thiago Cardoso Guimarães                ",
+  "CRM_Medico": "4399PI     ",
+  "Id_Especial": "1005"
+}, {
+  "Id_Medico": "5181",
+  "Nm_Medico": "Thiago Melo Diniz                       ",
+  "CRM_Medico": "4261PI     ",
+  "Id_Especial": "41"
+}, {
+  "Id_Medico": "4724",
+  "Nm_Medico": "Tiago Lobão Lopes                       ",
+  "CRM_Medico": "4528PI     ",
+  "Id_Especial": "1067"
+}, {
+  "Id_Medico": "20",
+  "Nm_Medico": "Ubiratan Martins Dos Santos             ",
+  "CRM_Medico": "1286PI     ",
+  "Id_Especial": "23"
+}, {
+  "Id_Medico": "6875",
+  "Nm_Medico": "Vilson De Moura Bezerra                 ",
+  "CRM_Medico": "6281PI     ",
+  "Id_Especial": "19"
+}, {
+  "Id_Medico": "3628",
+  "Nm_Medico": "Vinicius Pontes Do Nascimento           ",
+  "CRM_Medico": "3276PI     ",
+  "Id_Especial": "1067"
+}, {
+  "Id_Medico": "3235",
+  "Nm_Medico": "Virginia Araujo Andrade                 ",
+  "CRM_Medico": "2861PI     ",
+  "Id_Especial": "11"
+}, {
+  "Id_Medico": "5970",
+  "Nm_Medico": "Vivianne Martins Almeida Pompeu         ",
+  "CRM_Medico": "5090PI     ",
+  "Id_Especial": "8"
+}, {
+  "Id_Medico": "4764",
+  "Nm_Medico": "Wildson Moura Gonçalves                 ",
+  "CRM_Medico": "3487PI     ",
+  "Id_Especial": "19"
+}, {
+  "Id_Medico": "2522",
+  "Nm_Medico": "William Wobber Cardoso Barros           ",
+  "CRM_Medico": "2772PI     ",
+  "Id_Especial": "41"
+}, {
+  "Id_Medico": "3733",
+  "Nm_Medico": "Wilson De Oliveira Sousa Junior         ",
+  "CRM_Medico": "2982PI     ",
+  "Id_Especial": "35"
+}, {
+  "Id_Medico": "4642",
+  "Nm_Medico": "Yuri Nogueira Chaves                    ",
+  "CRM_Medico": "4627PI     ",
+  "Id_Especial": "8"
 }]
