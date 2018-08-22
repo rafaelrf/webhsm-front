@@ -1,6 +1,6 @@
 <template>
-
-  <!-- <div class="row mb-2">
+  <v-app>
+ <div class="row mb-2">
     <div class="col-md-6">
       <div class="card flex-md-row mb-4 box-shadow ">
         <img class="card-img-left flex-auto d-none d-lg-block rounded-circle" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [100x100]" style="width: 100px; height: 100px;" src="http://via.placeholder.com/100x100" data-holder-rendered="true">
@@ -109,8 +109,10 @@
     <div class="col-md-3" style="padding: 12px;">
       <button class="btn btn-lg btn-primary btn-block" onclick="location.href ='registerPatient.html';">Confirmar Horário</button>
     </div>
-  </div> -->
-  <h1>TESTANDO ROTAS</h1>
+  </div>
+</v-app>
+
+
 </template>
 
 <script>
