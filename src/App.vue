@@ -1,6 +1,14 @@
 <template>
 <v-app>
-  <router-view></router-view>
+  <v-content>
+    <v-container fluid fill-height>
+      <v-layout align-center justify-center>
+
+          <router-view></router-view>
+
+      </v-layout>
+    </v-container>
+  </v-content>
 </v-app>
 </template>
 
@@ -18,5 +26,4 @@
   padding-bottom: 40px;
   background-color: #f5f5f5;
 }
-
 </style>

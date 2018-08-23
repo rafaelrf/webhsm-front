@@ -10,6 +10,8 @@ import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 import VueResource from 'vue-resource'
 
+import 'bootstrap/dist/css/bootstrap.css'
+
 Vue.use(Vuetify)
 Vue.use(VueResource)
 Vue.config.productionTip = false

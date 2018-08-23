@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# webhsm-front
-=======
 # webhsm-front
 
 > Frontend sistema web do HSM.
