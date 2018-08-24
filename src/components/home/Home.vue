@@ -8,13 +8,13 @@
       <v-text-field slot="activator" v-model="date" label="Picker without buttons" prepend-icon="event" readonly></v-text-field>
       <v-date-picker v-model="date" @input="$refs.menu2.save(date)"></v-date-picker>
     </v-menu>
-    <router-link :to="{name:'doctor', params: {id: agreement,id2: 'teste'} }">
+    <router-link :to="{name:'doctor', params: {id: speciality,id2: doctor} }">
     <v-btn :disabled="!valid" @click="submit">
-      submit
+      Confirmar
     </v-btn>
   </router-link>
 
-    <v-btn @click="clear">clear</v-btn>
+    <v-btn @click="clear">Cancelar</v-btn>
   </v-form>
 
 </template>
