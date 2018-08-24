@@ -8,9 +8,12 @@
       <v-text-field slot="activator" v-model="date" label="Picker without buttons" prepend-icon="event" readonly></v-text-field>
       <v-date-picker v-model="date" @input="$refs.menu2.save(date)"></v-date-picker>
     </v-menu>
+    <router-link :to="{name:'doctor', params: {id: agreement,id2: 'teste'} }">
     <v-btn :disabled="!valid" @click="submit">
       submit
     </v-btn>
+  </router-link>
+
     <v-btn @click="clear">clear</v-btn>
   </v-form>
 
@@ -42,22 +45,14 @@ export default {
     specialities: specialitiesJson,
     doctor: {},
     doctors: doctorsJson,
-    agreement: {},
+    agreement: {teste:'teste', teste2:'teste2'},
     agreements: agreementsJson
   }),
   methods: {
     submit () {
-      if (this.$refs.form.validate()) {
-        // Native form submission is not yet supported
-        this.$http.post('/api/submit', {
-          name: this.name,
-          email: this.email,
-          select: this.select
-        })
-      }
     },
     clear () {
-      this.$refs.form.reset()
+
     }
   },
   computed: {

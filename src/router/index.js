@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '../components/home/Home.vue'
 import Doctor from '../components/doctor/Doctor.vue'
-import Patient from '../components/patient/Patient.vue'
+// import Patient from '../components/patient/Patient.vue'
 
 Vue.use(Router)
 
@@ -14,14 +14,14 @@ export default new Router({
       component: Home
     },
     {
-      path: '/doctor',
-      name: 'Doctor',
+      path: '/doctor/:id/:id2',
+      name: 'doctor',
       component: Doctor
-    },
-    {
-      path: '/patient',
-      name: 'Patient',
-      component: Patient
     }
+    // {
+    //   path: '/patient',
+    //   name: 'Patient',
+    //   component: Patient
+    // }
   ]
 })
