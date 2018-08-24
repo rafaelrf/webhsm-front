@@ -45,7 +45,7 @@ export default {
     specialities: specialitiesJson,
     doctor: {},
     doctors: doctorsJson,
-    agreement: {teste:'teste', teste2:'teste2'},
+    agreement: {},
     agreements: agreementsJson
   }),
   methods: {
