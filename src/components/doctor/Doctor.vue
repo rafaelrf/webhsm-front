@@ -2,27 +2,7 @@
 <v-container grid-list-md text-xs-center>
   <v-layout row wrap>
     <v-flex xs12 sm6 md6 lg4 xl3 v-for="schedule of filteredData" v-bind:key="`d${i}`">
-      <v-card  color="primary">
-        <v-container grid-list-xs text-xs-center>
-          <v-layout row wrap justify-center align-center>
-            <v-flex xs0 sm3 md3 lg3 xl3>
-              <v-card-media  src="https://via.placeholder.com/100x100" contain height="100 px">
-              </v-card-media>
-            </v-flex>
-            <v-flex xs12 sm9 md9 lg9 xl9>
-              <v-card-title>
-                {{schedule.Id_Especial}} Especialidades
-              </v-card-title>
-            </v-flex>
-            <v-divider light></v-divider>
-            <v-card-actions>
-              <v-btn color="secondary" outline>{{schedule.AtendimentoI}}</v-btn>
-              <v-btn color="secondary" outline>text2</v-btn>
-              <v-btn color="secondary" outline>text3</v-btn>
-            </v-card-actions>
-          </v-layout>
-        </v-container>
-      </v-card>
+      <doctor-card :doctorName="schedule.Nm_Medico" :speciality="schedule.Nm_Especialidade" :schedules="schedule.Atendimento"></doctor-card>
     </v-flex>
   </v-layout>
 </v-container>
@@ -32,8 +12,13 @@
 import specialitiesJson from '../../../data/especialidades.json'
 import doctorsJson from '../../../data/medicos.json'
 import scheduleJson from '../../../data/agenda.json'
+import Card from '../shared/card/Card.vue'
 
 export default {
+  components: {
+    'doctor-card': Card
+  },
+
   data: () => ({
     value: '',
     speciality: {},
