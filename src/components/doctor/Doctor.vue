@@ -5,6 +5,14 @@
       <doctor-card :doctorName="schedule.Nm_Medico" :speciality="schedule.Nm_Especialidade" :schedules="schedule.Atendimento"></doctor-card>
     </v-flex>
   </v-layout>
+
+  <router-link :disabled="!valid" :to="{name:'doctor', params: {id: speciality,id2: doctor} }">
+    <v-btn :disabled="!valid" @click="submit">
+      Confirmar
+    </v-btn>
+  </router-link>
+
+  <v-btn @click="clear">Cancelar</v-btn>
 </v-container>
 </template>
 
@@ -21,6 +29,7 @@ export default {
 
   data: () => ({
     value: '',
+    valid: false,
     speciality: {},
     specialities: specialitiesJson,
     doctor: {},
@@ -29,20 +38,11 @@ export default {
     schedules: scheduleJson
   }),
   methods: {
-    // submit () {
-    //   if (this.$refs.form.validate()) {
-    //     // Native form submission is not yet supported
-    //     this.$http.post('/api/submit', {
-    //       name: this.name,
-    //       email: this.email,
-    //       select: this.select
-    //     })
-    //   }
-    // },
+    submit () {},
     clear () {}
   },
   computed: {
-    filteredData () {
+    filteredData() {
       let filtered = this.schedules
       return filtered.filter(doctor => doctor.Id_Especial === this.$route.params.id)
     }
