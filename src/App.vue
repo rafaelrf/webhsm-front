@@ -1,6 +1,6 @@
 <template>
 <v-app id="inspire">
-  <v-navigation-drawer v-model="drawer" clipped app>
+  <v-navigation-drawer v-model="drawer" clipped-left app>
     <v-list dense>
       <v-list-tile @click="">
         <v-list-tile-action>

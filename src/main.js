@@ -12,9 +12,9 @@ import VueResource from 'vue-resource'
 
 Vue.use(Vuetify, {
   theme: {
-    primary: '#B71C1C',
+    primary: '#A42512',
     secondary: '#D32F2F',
-    accent: '#B71C1C',
+    accent: '#A42512',
     error: '#f44336',
     warning: '#ffeb3b',
     info: '#2196f3',

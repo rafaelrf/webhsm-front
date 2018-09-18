@@ -1,22 +1,20 @@
 <template>
-
-  <v-form ref="form" v-model="valid" lazy-validation>
-    <v-select v-model="agreement" :items="agreements" item-text="Nm_Convenio" item-value="Id_Convenio" :rules="[v => !!v || 'Item is required']" label="Convênios" required outline></v-select>
-    <v-select v-model="speciality" :items="specialities" item-text="Nm_Especialidade" item-value="id_especialidade" :rules="[v => !!v || 'Item is required']" label="Especialidades" required outline></v-select>
-    <v-select  v-model="doctor" :items="filteredData" item-text="Nm_Medico" item-value="Id_Medico" :rules="[v => !!v || 'Item is required']" label="Médico" required outline></v-select>
-    <v-menu ref="menu2" :close-on-content-click="false" v-model="menu2" :nudge-right="40" :return-value.sync="date" lazy transition="scale-transition" offset-y full-width min-width="290px">
-      <v-text-field slot="activator" v-model="date" label="Picker without buttons" prepend-icon="event" readonly></v-text-field>
-      <v-date-picker v-model="date" @input="$refs.menu2.save(date)"></v-date-picker>
-    </v-menu>
-    <router-link :to="{name:'doctor', params: {id: speciality,id2: doctor} }">
+<v-form ref="form" v-model="valid" lazy-validation>
+  <v-select v-model="agreement" :items="agreements" item-text="Nm_Convenio" item-value="Id_Convenio" :rules="[v => !!v || 'Item is required']" label="Convênios" required outline></v-select>
+  <v-select v-model="speciality" :items="specialities" item-text="Nm_Especialidade" item-value="id_especialidade" :rules="[v => !!v || 'Item is required']" label="Especialidades" required outline></v-select>
+  <v-select v-model="doctor" :items="filteredData" item-text="Nm_Medico" item-value="Id_Medico" :rules="[v => !!v || 'Item is required']" label="Médico" required outline></v-select>
+  <v-menu ref="menu2" :close-on-content-click="false" v-model="menu2" :nudge-right="40" :return-value.sync="date" lazy transition="scale-transition" offset-y full-width min-width="290px">
+    <v-text-field slot="activator" v-model="dateFormatted" label="Picker without buttons" prepend-icon="event" readonly  @blur="date = parseDate(dateFormatted)"></v-text-field>
+    <v-date-picker v-model="date" @input="$refs.menu2.save(date)"></v-date-picker>
+  </v-menu>
+  <router-link :to="{name:'doctor', params: {id: speciality,id2: doctor,id3: day+1} }">
     <v-btn :disabled="!valid" @click="submit">
       Confirmar
     </v-btn>
   </router-link>
 
-    <v-btn @click="clear">Cancelar</v-btn>
-  </v-form>
-
+  <v-btn @click="clear">Cancelar</v-btn>
+</v-form>
 </template>
 
 <script>
@@ -27,6 +25,8 @@ import doctorsJson from '../../../data/medicos.json'
 export default {
   data: () => ({
     date: null,
+    dateFormatted: null,
+    day: null,
     menu: false,
     modal: false,
     menu2: false,
@@ -50,24 +50,46 @@ export default {
   }),
   methods: {
     submit () {
+      var d = new Date(this.date);
+      this.day= d.getDay();
     },
     clear () {
 
-    }
+    },
+    formatDate (date) {
+      if (!date) return null
+
+      const [year, month, day] = date.split('-')
+      return `${day}/${month}/${year}`
+    },
+    parseDate (date) {
+        if (!date) return null
+
+        const [month, day, year] = date.split('/')
+        return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`
+      }
   },
   computed: {
     filteredData () {
       let filtered = this.doctors
       return filtered.filter(doctor => doctor.Id_Especial === this.speciality)
+    },
+
+    computedDateFormatted () {
+      return this.formatDate(this.date)
+    }
+  },
+
+  watch: {
+    date (val) {
+      this.dateFormatted = this.formatDate(this.date)
     }
   }
 
 }
-
 </script>
 
 <style>
-
 .form-search {
   width: 100%;
   max-width: 550px;
