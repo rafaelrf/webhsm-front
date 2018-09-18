@@ -10,7 +10,17 @@ import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 import VueResource from 'vue-resource'
 
-Vue.use(Vuetify)
+Vue.use(Vuetify, {
+  theme: {
+    primary: '#B71C1C',
+    secondary: '#D32F2F',
+    accent: '#B71C1C',
+    error: '#f44336',
+    warning: '#ffeb3b',
+    info: '#2196f3',
+    success: '#4caf50'
+  }
+})
 Vue.use(VueResource)
 Vue.config.productionTip = false
 
