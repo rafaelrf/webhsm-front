@@ -2,7 +2,7 @@
 <v-container grid-list-md text-xs-center>
   <v-layout row wrap>
     <v-flex xs12 sm6 md6 lg4 xl3 v-for="schedule of filteredData" v-bind:key="`d${schedule}`">
-      <doctor-card :doctorName="schedule.Nm_Medico" :speciality="schedule.Nm_Especialidade" :schedules="schedule.Atendimento"></doctor-card>
+      <doctor-card :doctorName="schedule.nm_medico" :speciality="schedule.nm_especialidade" :schedules="schedule.AtendimentoI"></doctor-card>
     </v-flex>
   </v-layout>
 
@@ -44,7 +44,9 @@ export default {
   computed: {
     filteredData () {
       let filtered = this.schedules
-      return filtered.filter(doctor => doctor.Id_Especial === this.$route.params.id)
+      return filtered.filter(doctor => doctor.Id_Especialidade === this.$route.params.id)
+       .filter(doctor => doctor.Id_Medico === this.$route.params.id2)
+       .filter(doctor => doctor.id_dia === this.$route.params.id3)
     }
   }
 }

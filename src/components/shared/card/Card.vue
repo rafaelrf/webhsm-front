@@ -9,15 +9,17 @@
       <v-flex xs12 sm9 md9 lg9 xl9>
         <v-card-title primary-title class="card-title">
           <h3>Dr(a): {{doctorName}}</h3>
-          <br>
-          <span class="card-description">{{speciality}}</span>
         </v-card-title>
+        <v-cav-card-text>
+          <span class="card-description">{{speciality}}</span>
+          <br>
+          <span class="card-description">Consultório: {{room}}</span>
+          <br>
+          <span class="card-description">Horário: {{schedules}}</span>
+        </v-cav-card-text>
       </v-flex>
       <v-divider light></v-divider>
       <v-card-actions>
-        <v-radio-group v-model="radioGroup" row height="1px">
-          <v-radio v-for="time of schedules" v-bind:key="`d${time}`" :label="time" :value="time"></v-radio>
-        </v-radio-group>
       </v-card-actions>
     </v-layout>
   </v-container>
@@ -26,7 +28,7 @@
 
 <script>
 export default {
-  props: ['doctorName', 'speciality', 'schedules'],
+  props: ['doctorName', 'speciality','room', 'schedules'],
   data () {
     return {
       isActive: true,
