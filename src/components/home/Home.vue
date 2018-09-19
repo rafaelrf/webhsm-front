@@ -4,7 +4,7 @@
   <v-select v-model="speciality" :items="specialities" item-text="Nm_Especialidade" item-value="id_especialidade" :rules="[v => !!v || 'Item is required']" label="Especialidades" required outline></v-select>
   <v-select v-model="doctor" :items="filteredData" item-text="Nm_Medico" item-value="Id_Medico" :rules="[v => !!v || 'Item is required']" label="Médico" required outline></v-select>
   <v-menu ref="menu2" :close-on-content-click="false" v-model="menu2" :nudge-right="40" :return-value.sync="date" lazy transition="scale-transition" offset-y full-width min-width="290px">
-    <v-text-field slot="activator" v-model="dateFormatted" label="Picker without buttons" prepend-icon="event" readonly @blur="date = parseDate(dateFormatted)"></v-text-field>
+    <v-text-field slot="activator" v-model="dateFormatted" label="Data do Atendimento" prepend-icon="event" readonly @blur="date = parseDate(dateFormatted)"></v-text-field>
     <v-date-picker v-model="date" @input="$refs.menu2.save(date)"></v-date-picker>
   </v-menu>
   <router-link :to="{name:'doctor', params: {id: speciality,id2: doctor,id3: day+1} }">
@@ -26,7 +26,7 @@ export default {
   data: () => ({
     date: null,
     dateFormatted: null,
-    day: null,
+    day: 0,
     menu: false,
     modal: false,
     menu2: false,
@@ -50,8 +50,7 @@ export default {
   }),
   methods: {
     submit () {
-      var d = new Date(this.date)
-      this.day = d.getDay()
+
     },
     clear () {
 
@@ -72,7 +71,7 @@ export default {
   computed: {
     filteredData () {
       let filtered = this.doctors
-      return filtered.filter(doctor => doctor.Id_Especial === this.speciality )
+      return filtered.filter(doctor => doctor.Id_Especial === this.speciality)
     },
 
     computedDateFormatted () {
@@ -83,6 +82,8 @@ export default {
   watch: {
     date (val) {
       this.dateFormatted = this.formatDate(this.date)
+      this.selectedDate = new Date(this.date)
+      this.day = this.selectedDate.getDay()
     }
   }
 

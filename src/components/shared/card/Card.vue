@@ -3,8 +3,7 @@
   <v-container grid-list-xs text-xs-center>
     <v-layout row wrap justify-center align-center>
       <v-flex xs0 sm3 md3 lg3 xl3>
-        <v-card-media src="https://via.placeholder.com/100x100" contain height="100 px">
-        </v-card-media>
+          <img  v-bind:src="require('@/assets/doctor.png')" contain height="80px">
       </v-flex>
       <v-flex xs12 sm9 md9 lg9 xl9>
         <v-card-title primary-title class="card-title">
@@ -15,11 +14,14 @@
           <br>
           <span class="card-description">Consultório: {{room}}</span>
           <br>
-          <span class="card-description">Horário: {{schedules}}</span>
+          <span class="card-description">Atendimento: <b>{{schedules}}</b></span>
         </v-cav-card-text>
       </v-flex>
       <v-divider light></v-divider>
       <v-card-actions>
+        <router-link :to="{name:'patient', params: {id: id} }">
+          <v-btn @click="submit" color="accent">Agendar Consulta</v-btn>
+        </router-link>
       </v-card-actions>
     </v-layout>
   </v-container>
@@ -28,7 +30,7 @@
 
 <script>
 export default {
-  props: ['doctorName', 'speciality','room', 'schedules'],
+  props: ['doctorName', 'speciality', 'room', 'schedules', 'id'],
   data () {
     return {
       isActive: true,
@@ -37,6 +39,10 @@ export default {
   },
 
   methods: {
+    submit  () {
+      this.selectedDoctor=this.doctorName
+      console.log(this.selectedDoctor);
+    },
     myFilter: function () {
       this.isActive = !this.isActive
       // some code to filter users

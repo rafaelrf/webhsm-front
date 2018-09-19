@@ -2,17 +2,10 @@
 <v-container grid-list-md text-xs-center>
   <v-layout row wrap>
     <v-flex xs12 sm6 md6 lg4 xl3 v-for="schedule of filteredData" v-bind:key="`d${schedule}`">
-      <doctor-card :doctorName="schedule.nm_medico" :speciality="schedule.nm_especialidade" :schedules="schedule.AtendimentoI"></doctor-card>
+      <doctor-card :id="schedule.id_agenda" :doctorName="schedule.nm_medico" :speciality="schedule.nm_especialidade" :room="schedule.Consultorio" :schedules="schedule.AtendimentoI"></doctor-card>
     </v-flex>
   </v-layout>
-
-  <router-link :disabled="!valid" :to="{name:'doctor', params: {id: speciality,id2: doctor} }">
-    <v-btn :disabled="!valid" @click="submit">
-      Confirmar
-    </v-btn>
-  </router-link>
-
-  <v-btn @click="clear">Cancelar</v-btn>
+  <v-btn @click="clear" color="darkgray">Voltar</v-btn>
 </v-container>
 </template>
 
@@ -45,8 +38,8 @@ export default {
     filteredData () {
       let filtered = this.schedules
       return filtered.filter(doctor => doctor.Id_Especialidade === this.$route.params.id)
-       .filter(doctor => doctor.Id_Medico === this.$route.params.id2)
-       .filter(doctor => doctor.id_dia === this.$route.params.id3)
+        .filter(doctor => doctor.Id_Medico === this.$route.params.id2)
+        .filter(doctor => doctor.id_dia === this.$route.params.id3)
     }
   }
 }

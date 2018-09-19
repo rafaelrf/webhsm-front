@@ -19,8 +19,8 @@ export default new Router({
       component: Doctor
     },
     {
-      path: '/patient',
-      name: 'Patient',
+      path: '/patient/:id',
+      name: 'patient',
       component: Patient
     }
   ]

@@ -40,7 +40,13 @@
 <script>
 export default {
   data: () => ({
-    drawer: false
+    drawer: false,
+    selectedDate:'',
+    selectedDoctor:'',
+    selectedSpeciality: '',
+    selectedTime: '',
+    selectedRoom: '',
+    selectedPatient: ''
   }),
   props: {
     source: String
