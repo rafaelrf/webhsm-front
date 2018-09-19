@@ -40,8 +40,8 @@ export default {
 
   methods: {
     submit  () {
-      this.selectedDoctor=this.doctorName
-      console.log(this.selectedDoctor);
+      this.selectedDoctor = this.doctorName
+      console.log(this.selectedDoctor)
     },
     myFilter: function () {
       this.isActive = !this.isActive
