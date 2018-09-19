@@ -2,7 +2,7 @@
 <v-app id="inspire">
   <v-navigation-drawer v-model="drawer" clipped-left app>
     <v-list dense>
-      <v-list-tile v-on:@click="doThis">
+      <v-list-tile v-on:@click="true">
         <v-list-tile-action>
           <v-icon>schedule</v-icon>
         </v-list-tile-action>
@@ -10,7 +10,7 @@
           <v-list-tile-title>Agendar Consulta</v-list-tile-title>
         </v-list-tile-content>
       </v-list-tile>
-      <v-list-tile v-on:@click="doThis">
+      <v-list-tile v-on:@click="true">
         <v-list-tile-action>
           <v-icon>event</v-icon>
         </v-list-tile-action>

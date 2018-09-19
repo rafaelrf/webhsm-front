@@ -3,19 +3,19 @@
   <v-container grid-list-xs text-xs-center>
     <v-layout row wrap justify-center align-center>
       <v-flex xs0 sm3 md3 lg3 xl3>
-          <img  v-bind:src="require('@/assets/doctor.png')" contain height="80px">
+        <img v-bind:src="require('@/assets/doctor.png')" contain height="80px">
       </v-flex>
       <v-flex xs12 sm9 md9 lg9 xl9>
         <v-card-title primary-title class="card-title">
           <h3>Dr(a): {{doctorName}}</h3>
         </v-card-title>
-        <v-cav-card-text>
+        <v-card-text>
           <span class="card-description">{{speciality}}</span>
           <br>
           <span class="card-description">Consultório: {{room}}</span>
           <br>
           <span class="card-description">Atendimento: <b>{{schedules}}</b></span>
-        </v-cav-card-text>
+        </v-card-text>
       </v-flex>
       <v-divider light></v-divider>
       <v-card-actions>
@@ -30,6 +30,7 @@
 
 <script>
 export default {
+  name: 'Card',
   props: ['doctorName', 'speciality', 'room', 'schedules', 'id'],
   data () {
     return {
@@ -39,13 +40,14 @@ export default {
   },
 
   methods: {
-    submit  () {
+    submit () {
       this.selectedDoctor = this.doctorName
-      console.log(this.selectedDoctor)
+      this.selectedSpeciality = this.speciality
+      this.selectedRoom = this.room
+      this.selectedTime = this.schedules
     },
     myFilter: function () {
       this.isActive = !this.isActive
-      // some code to filter users
     }
   }
 

@@ -38,9 +38,8 @@ export default {
 
   methods: {
     submit () {
-      console.log(this.bornDate)
-      console.log(this.patient)
-      console.log(this.patient.bornDate)
+      this.selectedPatient = this.patient
+      console.log(this.selectedPatient)
     },
     clear () {
       this.$refs.form.reset()
