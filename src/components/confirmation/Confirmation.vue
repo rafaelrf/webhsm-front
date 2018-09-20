@@ -21,7 +21,7 @@
       <span> <strong class="label">Consultório:</strong> <span class="data">{{  this.$root.$data.store.selectedRoom}}</span></span>
       <br><br>
       <div>
-        <v-btn @click="clear" color="darkgray">Cancelar</v-btn>
+        <v-btn @click="clear" href="javascript:history.go(-1)" color="darkgray">Voltar</v-btn>
         <router-link :to="{name:'payment'}">
         <v-btn :disabled="!valid" @click="submit" color="accent">Confirmar</v-btn>
         </router-link>
@@ -41,8 +41,6 @@ export default {
 
   methods: {
     submit () {
-      console.log(this.$root.selectedPatient)
-      console.log(this.selectedPatient)
     },
     clear () {
     }

@@ -15,7 +15,9 @@
 
           <div>
             <v-btn @click="clear" color="success">Pagar Agora</v-btn>
+            <router-link :to="{ name: 'Home'}">
             <v-btn :disabled="!valid" @click="submit" color="accent">Finalizar</v-btn>
+            </router-link>
           </div>
   </div>
 </template>

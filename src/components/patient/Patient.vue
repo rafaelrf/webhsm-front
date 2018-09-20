@@ -11,7 +11,7 @@
     <v-text-field slot="activator" v-model="patient.bornDate" label="Data Nascimento" prepend-icon="event" readonly></v-text-field>
     <v-date-picker locale="pt-br"  v-model="patient.bornDate" @input="$refs.menu2.save(patient.bornDate)"></v-date-picker>
   </v-menu>
-  <v-btn @click="clear" color="darkgray">Cancelar</v-btn>
+  <v-btn @click="clear" href="javascript:history.go(-1)" color="darkgray">Voltar</v-btn>
   <router-link :to="{name:'confirmation'}">
   <v-btn :disabled="!valid" @click="submit" color="accent">Confirmar</v-btn>
   </router-link>
