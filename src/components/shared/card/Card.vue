@@ -4,6 +4,7 @@
     <v-layout row wrap justify-center align-center>
       <v-flex xs0 sm3 md3 lg3 xl3>
         <img v-bind:src="require('@/assets/doctor.png')" contain height="80px">
+
       </v-flex>
       <v-flex xs12 sm9 md9 lg9 xl9>
         <v-card-title primary-title class="card-title">
@@ -38,13 +39,12 @@ export default {
       radioGroup: true
     }
   },
-
   methods: {
     submit () {
-      this.selectedDoctor = this.doctorName
-      this.selectedSpeciality = this.speciality
-      this.selectedRoom = this.room
-      this.selectedTime = this.schedules
+      this.$root.$data.store.selectedDoctor = this.doctorName
+      this.$root.$data.store.selectedSpeciality = this.speciality
+      this.$root.$data.store.selectedRoom = this.room
+      this.$root.$data.store.selectedTime = this.schedules
     },
     myFilter: function () {
       this.isActive = !this.isActive

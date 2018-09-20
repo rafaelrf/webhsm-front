@@ -25,9 +25,23 @@ Vue.use(Vuetify, {
 Vue.use(VueResource)
 Vue.config.productionTip = false
 
+const store = {
+  selectedConvenio: '',
+  selectedDate: '',
+  selectedDoctor: '',
+  selectedCrm: '',
+  selectedSpeciality: '',
+  selectedTime: '',
+  selectedRoom: '',
+  selectedPatient: '',
+  selectedCpf: ''
+}
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  data: {
+    store
+  },
   name: 'myApp',
   router,
   render: h => h(App)

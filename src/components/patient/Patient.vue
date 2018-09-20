@@ -12,7 +12,9 @@
     <v-date-picker locale="pt-br"  v-model="patient.bornDate" @input="$refs.menu2.save(patient.bornDate)"></v-date-picker>
   </v-menu>
   <v-btn @click="clear" color="darkgray">Cancelar</v-btn>
+  <router-link :to="{name:'confirmation'}">
   <v-btn :disabled="!valid" @click="submit" color="accent">Confirmar</v-btn>
+  </router-link>
 </v-form>
 
 </template>
@@ -38,8 +40,8 @@ export default {
 
   methods: {
     submit () {
-      this.selectedPatient = this.patient
-      console.log(this.selectedPatient)
+      this.$root.$data.store.selectedPatient = this.patient.name
+      this.$root.$data.store.selectedCpf = this.patient.cpf
     },
     clear () {
       this.$refs.form.reset()

@@ -1,5 +1,5 @@
 <template>
-<v-app id="inspire">
+<v-app id="app">
   <v-navigation-drawer v-model="drawer" clipped-left app>
     <v-list dense>
       <v-list-tile v-on:@click="true">
@@ -38,15 +38,17 @@
 </template>
 
 <script>
+
 export default {
   data: () => ({
-    drawer: false,
-    selectedDate: '',
-    selectedDoctor: '',
-    selectedSpeciality: '',
-    selectedTime: '',
-    selectedRoom: '',
-    selectedPatient: ''
+    drawer: false
+    // selectedDate: '',
+    // selectedDoctor: 'Teste',
+    // selectedSpeciality: '',
+    // selectedTime: '',
+    // selectedRoom: '',
+    // selectedPatient: '',
+    // selectedCpf: ''
   }),
   props: {
     source: String

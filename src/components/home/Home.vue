@@ -50,7 +50,7 @@ export default {
   }),
   methods: {
     submit () {
-
+      this.$root.$data.store.selectedCrm = this.doctor.CRM_Medico
     },
     clear () {
 
@@ -82,8 +82,8 @@ export default {
   watch: {
     date (val) {
       this.dateFormatted = this.formatDate(this.date)
-      this.selectedDate = new Date(this.date)
-      this.day = this.selectedDate.getDay()
+      this.$root.$data.store.selectedDate = new Date(this.date)
+      this.day = this.$root.$data.store.selectedDate.getDay()
     }
   }
 
